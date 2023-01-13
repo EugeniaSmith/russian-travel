@@ -6,6 +6,7 @@
     font-weight: 400;
     font-size: 30px;
     line-height: 1.2;
+    font-family: "Inter", Arial, sans-serif;
 }
 @media screen and (max-width: 425px) {
     .lead__subtitle {

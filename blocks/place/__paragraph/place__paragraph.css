@@ -2,8 +2,9 @@
     margin: 0;
     font-weight: 400;
     font-size: 18px;
-    line-height: 1.6;
+    line-height: 1.63;
     padding-bottom: 26px;
+    font-family: "Inter", Arial, sans-serif;
 }
 @media screen and (max-width: 768px) {
     .place__paragraph {
