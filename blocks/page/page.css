@@ -9,7 +9,8 @@
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
-    text-rendering: optimizeLegibility; 
+    text-rendering: optimizeLegibility;
+    box-sizing: border-box;
 
 }
 @media screen and (max-width: 1024px) {

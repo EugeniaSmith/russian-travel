@@ -3,8 +3,8 @@
     grid-template-columns: 460px 1fr;
     grid-row: repeat(2, 1fr);
     column-gap: 40px;
-    row-gap: 48px;
-    margin-bottom: 80px;
+    row-gap: 42px;
+    margin-top: 80px;
     max-width: 100%;
 }
 @media screen and (max-width: 1024px) {
@@ -17,19 +17,13 @@
     .place {
         grid-template-columns: 340px 1fr;
         column-gap: 28px;
-        margin-bottom: 73px;
+        margin-top: 73px;
     }
 }
-@media screen and (max-width: 425px) {
-    .place {
-        display: block;
-        margin-bottom: 50px; 
-    }
-}
-@media screen and (max-width: 320px) {
-    .place {
-        display: block;
-        margin-bottom: 50px; 
 
+@media screen and (max-width: 582px) {
+    .place {
+        display: block;
+        margin-top: 50px; 
     }
 }

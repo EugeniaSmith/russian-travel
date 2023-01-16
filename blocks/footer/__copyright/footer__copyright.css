@@ -7,17 +7,16 @@
     line-height: 1.2;
     font-family: "Inter", Arial, sans-serif;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 640px) {
     .footer__copyright {
-        line-height: 1;
         margin-bottom: 24px;
-
+        max-width: 480px;
+        margin: auto;
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 476px) {
     .footer__copyright {
         line-height: 1;
-        margin-bottom: 24px;
 
     }
 }

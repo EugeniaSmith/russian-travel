@@ -3,6 +3,13 @@
     flex-direction: column;
     justify-content: end;
 }
+@media screen and (max-width: 582px) {
+    .place__website {
+        margin: auto;
+        max-width: 550px;
+        margin-top: 32px;
+    }
+}
 @media screen and (max-width: 425px) {
     .place__website {
         max-width: 393px;
@@ -12,6 +19,5 @@
 @media screen and (max-width: 320px) {
     .place__website {
         max-width: 288px;
-        margin: auto;
     }
 }
