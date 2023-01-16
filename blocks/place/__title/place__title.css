@@ -28,6 +28,6 @@
 @media screen and (max-width: 320px) {
     .place__title {
         max-width: 288px;
-        max-height: 35px
+        max-height: 35px;
         }
 }
